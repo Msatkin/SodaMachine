@@ -10,7 +10,8 @@ namespace SodaMachine
     {
         static void Main(string[] args)
         {
-            SodaMachine cokeMachine = new SodaMachine();
+            Main main = new Main();
+            main.StartDay();
         }
     }
 }

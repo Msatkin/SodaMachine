@@ -8,9 +8,9 @@ namespace SodaMachine
 {
     class Main
     {
-        public Customer customer;
         SodaMachine sodaMachine = new SodaMachine();
         Random random = new Random();
+        public Customer customer;
 
         public void StartDay()
         {
@@ -18,17 +18,18 @@ namespace SodaMachine
             {
                 customer = new Customer(random);
                 sodaMachine.customer = customer;
+                sodaMachine.InsertMoney();
                 sodaMachine.CheckPurchase(GetCustomerSelection());
             }
         }
         public int GetCustomerSelection()
         {
             Console.Clear();
-            Console.WriteLine("You have {0} cents.");
+            Console.WriteLine("You've inserted {0} cents.", sodaMachine.GetTotalMoney());
             Console.WriteLine("What soda would you like to buy?");
-            Console.WriteLine("/n1. Grape Soda -- 60¢");
-            Console.WriteLine("/n1. Orange Soda -- 35¢");
-            Console.WriteLine("/n1. Meat Soda -- 6¢");
+            Console.WriteLine("\n1. Grape Soda -- {0}¢",sodaMachine.sodaPrices[0]);
+            Console.WriteLine("2. Orange Soda -- {0}¢", sodaMachine.sodaPrices[1]);
+            Console.WriteLine("3. Meat Soda -- {0}¢", sodaMachine.sodaPrices[2]);
             switch(Console.ReadLine())
             {
                 case "1":

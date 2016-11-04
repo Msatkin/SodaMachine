@@ -8,7 +8,8 @@ namespace SodaMachine
 {
     class Customer
     {
-        List<Coin>[] money = new List<Coin>[4];
+        public List<Coin>[] money = new List<Coin>[4] { new List<Coin>(), new List<Coin>(), new List<Coin>(), new List<Coin>() };
+        public Soda soda;
         private int startingQuarters;
         private int startingDimes;
         private int startingNickels;
@@ -18,10 +19,11 @@ namespace SodaMachine
         {
             startingQuarters = random.Next(3);
             startingDimes = random.Next(3);
-            startingNickels = random.Next(3);
-            startingPennies = random.Next(3);
+            startingNickels = random.Next(1,3);
+            startingPennies = random.Next(1,3);
+            GenerateMoney();
         }
-        public void GenerateMoney()
+        private void GenerateMoney()
         {
             for (int i = 0; i < startingQuarters; i++)
             {

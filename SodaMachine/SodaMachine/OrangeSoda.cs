@@ -10,7 +10,7 @@ namespace SodaMachine
     {
         public OrangeSoda()
         {
-            cost = .35;
+            cost = .35m;
         }
     }
 }

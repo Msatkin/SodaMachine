@@ -8,6 +8,6 @@ namespace SodaMachine
 {
     class Soda
     {
-        public double cost;
+        public decimal cost;
     }
 }
