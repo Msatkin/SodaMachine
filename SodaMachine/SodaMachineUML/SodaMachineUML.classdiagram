@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="f7e5b62e-6daf-433d-933e-26e6663af81c" name="SodaMachineUML" linkedPackageId="66011547-6062-45ed-8a55-cb2407fc2e52" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="b936bd16-d49a-4e03-940f-785a119773ad">
+      <profileInstance Id="ab16fdc9-ed08-4f29-9cd4-2a178ce55d46" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="aea3c044-28c9-46a9-8486-a752c2730d9e">
+      <profileInstance Id="208e8fe7-9284-4e60-bb45-b6881014f4f5" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9ab69742-d5ab-436a-b5e7-0a7e8b575894" name="SodaMachine" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="85265b03-710b-4461-8213-7a6212a50de3" />
+        <targetEnds>
+          <association Id="baaf4900-8696-42f5-9c13-decd0328591e" isDerived="false" sourceEndRoleName="SodaMachine" targetEndRoleName="Penny" isLeaf="false" isAbstract="false">
+            <classMoniker Id="a88222cb-c664-4cac-ae78-0e1c98cca80e" LastKnownName="Penny" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7e6efb6c-1108-4802-ab7b-936ea5ce4a2e" name="SodaMachine" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="75321a79-d087-40e6-8634-dd78686a0109" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1b86ea6d-2be8-44c1-9b7a-2af9d6622b07" name="Penny" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="26ba93a2-bc92-48d3-b1d6-4e90918c6707" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ecd08be1-68e9-48ba-a1a1-7308e335f03b" />
+          </association>
+          <association Id="987b96e1-5b0e-452d-a7e4-7843a47284e0" isDerived="false" sourceEndRoleName="SodaMachine" targetEndRoleName="Nickel" isLeaf="false" isAbstract="false">
+            <classMoniker Id="0582708b-644a-43b6-89e1-851786876b66" LastKnownName="Nickel" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9e4856aa-1069-4311-a306-1b58b7f517a0" name="SodaMachine" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1497d960-a887-4847-9a8a-241d3afa256f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6c1b710f-35df-44fa-8d39-d6b323e5acc1" name="Nickel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ef95d474-6c42-4008-a751-8d4e67c2c209" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5b94fd27-c88c-463e-aca9-878219b1c0c5" />
+          </association>
+          <association Id="6a9e2122-eabc-4433-9d15-b8adbda1faf6" isDerived="false" sourceEndRoleName="SodaMachine" targetEndRoleName="Dime" isLeaf="false" isAbstract="false">
+            <classMoniker Id="abd0aca2-15ba-4e99-8adf-17498a298eb7" LastKnownName="Dime" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="02332c46-1674-44b5-be51-098e0bd7be98" name="SodaMachine" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fc913280-6f8f-4f4c-9a6a-30f6f904617a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d9fe1f12-b3e8-4846-b10d-aa1ca4f49cf2" name="Dime" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="67a5da3c-ddd5-4997-9860-7b0827afbec4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fe549b76-bb1b-41f3-b436-2cde95c4d652" />
+          </association>
+          <association Id="7adc19ea-7312-4aa2-aec0-b568bdb88489" isDerived="false" sourceEndRoleName="SodaMachine" targetEndRoleName="Quarter" isLeaf="false" isAbstract="false">
+            <classMoniker Id="8f7a6c4e-9aef-498e-a195-fa0ddbedf210" LastKnownName="Quarter" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="58317795-9620-43b8-931a-a944427de140" name="SodaMachine" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="16e3c20d-bd71-4419-ad27-cd28366705f4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e951844e-98b0-4b73-aa36-343f29f24093" name="Quarter" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="dba5b654-63be-4a8e-8204-b5baa022082f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6bc3d09e-3693-45ac-aabd-ef3a4acde4b5" />
+          </association>
+          <association Id="080bc604-b3e7-4cb0-9d27-4419fc810710" isDerived="false" sourceEndRoleName="SodaMachine" targetEndRoleName="Customer" isLeaf="false" isAbstract="false">
+            <classMoniker Id="8a6ae368-37af-4fa4-9758-2d73da9877c2" LastKnownName="Customer" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8e37d199-fa42-4fe4-a1ab-4a8b54074b2f" name="SodaMachine" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="60ef3ecd-b91b-4c9c-81b0-dd6a3cece6c5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3f987ab1-8908-4079-9ae0-3aca942a3819" name="Customer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="faa59276-66eb-442a-8518-125856b75d24" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="bd936c6e-9b09-45db-ae73-3215db3116ef" />
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation Id="4eaa9dd4-e037-4f06-806a-f9dc13ef25f2" name="StockMachine" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b8a5b779-dbec-4322-b1c5-2f769fbced0f" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="49e49922-2e46-4383-8d23-79e69f120768" name="Coin" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="52286c3b-2abc-48ac-b831-504cb06fcee8" />
+        <ownedAttributesInternal>
+          <property Id="eb2eb932-d7f2-461c-9835-864c339b13b9" name="double moneyValue" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7444c279-79d5-4677-88e2-820839016387" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a88222cb-c664-4cac-ae78-0e1c98cca80e" name="Penny" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8ec318c6-e67a-49d7-90b8-db01dfa75b44" />
+        <generalsInternal>
+          <generalization Id="267fb5e2-c8a9-4e11-bc10-ab95d04633e3" isSubstitutable="false">
+            <classMoniker Id="49e49922-2e46-4383-8d23-79e69f120768" LastKnownName="Coin" />
+            <elementDefinition Id="a6602a86-4e51-4807-9833-d2ccb74ae6f9" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0582708b-644a-43b6-89e1-851786876b66" name="Nickel" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="dc973864-522a-437a-8631-82732a5f1b72" />
+        <generalsInternal>
+          <generalization Id="f9d388ae-387a-46f4-bc87-1ae8f8b5b920" isSubstitutable="false">
+            <classMoniker Id="49e49922-2e46-4383-8d23-79e69f120768" LastKnownName="Coin" />
+            <elementDefinition Id="8d46c536-a5a8-400e-b0e5-061e1063f289" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="abd0aca2-15ba-4e99-8adf-17498a298eb7" name="Dime" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5d09385a-64be-40d0-b8f9-6e1d42a5c041" />
+        <generalsInternal>
+          <generalization Id="814a660c-2a76-4953-90e6-a0e80e9f9836" isSubstitutable="false">
+            <classMoniker Id="49e49922-2e46-4383-8d23-79e69f120768" LastKnownName="Coin" />
+            <elementDefinition Id="5748f443-0eea-4797-bf88-6407d2d16c6c" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="8f7a6c4e-9aef-498e-a195-fa0ddbedf210" name="Quarter" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3ba9ece2-6b29-4498-940f-244a4763db39" />
+        <generalsInternal>
+          <generalization Id="45d4072f-364a-4fdb-a05d-1634c8652ff1" isSubstitutable="false">
+            <classMoniker Id="49e49922-2e46-4383-8d23-79e69f120768" LastKnownName="Coin" />
+            <elementDefinition Id="24bffef3-3d5c-423f-9834-d1f49e6b6ebe" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="8a6ae368-37af-4fa4-9758-2d73da9877c2" name="Customer" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="bb7eea22-27f6-4959-9fb1-2f27613cd1e2" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="66011547-6062-45ed-8a55-cb2407fc2e52" name="SodaMachineUML">
+    <elementDefinition Id="f9effffb-4ea2-406e-9e80-788cc07dfa86" />
+  </package>
+</logicalClassDesignerModel>

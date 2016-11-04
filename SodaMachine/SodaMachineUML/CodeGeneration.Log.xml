@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 14.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2016-11-04T07:38:38" Importance="High" Text="Code generation or text transformation started." />
+  <Error Timestamp="2016-11-04T07:38:38" Importance="High" Text="No templates were found to process.  Configure templates by choosing 'Configure Default Code Generation Settings...' from the 'Architecture' menu, or change the selection for which code generation is launched." />
+  <Message Timestamp="2016-11-04T07:38:39" Importance="Diagnostic" Text="The selection included 16 elements which were not bound to a template." />
+  <Warning Timestamp="2016-11-04T07:38:39" Importance="Medium" Text="'SodaMachineUML::SodaMachine' -  (Class): no bound template." />
+  <Message Timestamp="2016-11-04T07:38:39" Importance="Diagnostic" Text="'SodaMachineUML::' -  (Association): no bound template." />
+  <Warning Timestamp="2016-11-04T07:38:39" Importance="Medium" Text="'SodaMachineUML::Penny' -  (Class): no bound template." />
+  <Message Timestamp="2016-11-04T07:38:39" Importance="Diagnostic" Text="'SodaMachineUML::' -  (Association): no bound template." />
+  <Warning Timestamp="2016-11-04T07:38:39" Importance="Medium" Text="'SodaMachineUML::Nickel' -  (Class): no bound template." />
+  <Message Timestamp="2016-11-04T07:38:39" Importance="Diagnostic" Text="'a6602a86-4e51-4807-9833-d2ccb74ae6f9' -  (Generalization): no bound template." />
+  <Message Timestamp="2016-11-04T07:38:39" Importance="Diagnostic" Text="'8d46c536-a5a8-400e-b0e5-061e1063f289' -  (Generalization): no bound template." />
+  <Warning Timestamp="2016-11-04T07:38:39" Importance="Medium" Text="'SodaMachineUML::Coin' -  (Class): no bound template." />
+  <Message Timestamp="2016-11-04T07:38:39" Importance="Diagnostic" Text="'SodaMachineUML::' -  (Association): no bound template." />
+  <Message Timestamp="2016-11-04T07:38:39" Importance="Diagnostic" Text="'SodaMachineUML::' -  (Association): no bound template." />
+  <Message Timestamp="2016-11-04T07:38:39" Importance="Diagnostic" Text="'SodaMachineUML::' -  (Association): no bound template." />
+  <Message Timestamp="2016-11-04T07:38:39" Importance="Diagnostic" Text="'5748f443-0eea-4797-bf88-6407d2d16c6c' -  (Generalization): no bound template." />
+  <Warning Timestamp="2016-11-04T07:38:39" Importance="Medium" Text="'SodaMachineUML::Dime' -  (Class): no bound template." />
+  <Message Timestamp="2016-11-04T07:38:39" Importance="Diagnostic" Text="'24bffef3-3d5c-423f-9834-d1f49e6b6ebe' -  (Generalization): no bound template." />
+  <Warning Timestamp="2016-11-04T07:38:39" Importance="Medium" Text="'SodaMachineUML::Customer' -  (Class): no bound template." />
+  <Warning Timestamp="2016-11-04T07:38:39" Importance="Medium" Text="'SodaMachineUML::Quarter' -  (Class): no bound template." />
+  <Message Timestamp="2016-11-04T07:38:39" Importance="High" Text="Code generation complete. Errors: 1. Warnings: 7." />
+</Log>
